@@ -32,7 +32,7 @@ apt-cache policy docker-ce
 sudo apt install docker-ce
 sudo systemctl status docker
 sudo apt-get install docker-compose-plugin
-=====================
+
 
 
 Structe:
@@ -52,7 +52,7 @@ DB_USER - database's user's login
 DB_PASSWORD - database's user's password
 START_TIME - in that time file will parse web-site
 DUMP_TIME = in that time file will make dump database
-=====================
+
 
 How to run:
 =====================
@@ -60,4 +60,3 @@ How to run:
 2. Next you should be in this directory
 3. For the first time: docker-compose up --build (Next times: docker-compose up)
 4. python3 main.py
-=====================
