@@ -39,21 +39,21 @@ On Debian:
 
 Structe:
 =====================
-main.py - main file that parses web-site auto.ria.com<br/>
-docker-compose.yaml - file that up postgresql database in docker container<br/>
-.env - configure file with settings values<br/>
-dumps - directory with database's dumps<br/>
+ main.py - main file that parses web-site auto.ria.com<br/>
+ docker-compose.yaml - file that up postgresql database in docker container<br/>
+ .env - configure file with settings values<br/>
+ dumps - directory with database's dumps<br/>
 
 
 Configuration:
 =====================
-URL - auto.ria.com url<br/>
-DB_HOST - database's IP address<br/>
-DB_NAME - database's name<br/>
-DB_USER - database's user's login <br/>
-DB_PASSWORD - database's user's password<br/>
-START_TIME - in that time file will parse web-site<br/>
-DUMP_TIME = in that time file will make dump database<br/>
+ URL - auto.ria.com url<br/>
+ DB_HOST - database's IP address<br/>
+ DB_NAME - database's name<br/>
+ DB_USER - database's user's login <br/>
+ DB_PASSWORD - database's user's password<br/>
+ START_TIME - in that time file will parse web-site<br/>
+ DUMP_TIME = in that time file will make dump database<br/>
 
 
 How to run:
